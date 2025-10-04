@@ -5,9 +5,14 @@
 </head>
 <body>
   <script>
+    // Task: Conditional redirect if userAgent includes "Mozilla"
     if (navigator.userAgent.includes("Mozilla")) {
-      window.location.href = "https://www.mozilla.org/media/"; 
+      // Redirect to a working media-related page
+      window.location.href = "https://www.mozilla.org/en-US/"; 
     }
   </script>
+
+  <h1>Welcome!</h1>
+  <p>If your browser does not include "Mozilla", you will stay on this page.</p>
 </body>
 </html>
