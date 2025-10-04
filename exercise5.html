@@ -4,12 +4,12 @@
   <title>Exercise 5</title>
 </head>
 <body>
-  <img id="randomImg" width="300">
+  <img id="randomImg" width="300" height="300" alt="Random image">
   <script>
     let images = [
-      "https://via.placeholder.com/300/FF0000",
-      "https://via.placeholder.com/300/00FF00",
-      "https://via.placeholder.com/300/0000FF"
+      "https://via.placeholder.com/300x300/FF0000/FFFFFF?text=Red",
+      "https://via.placeholder.com/300x300/00FF00/FFFFFF?text=Green",
+      "https://via.placeholder.com/300x300/0000FF/FFFFFF?text=Blue"
     ];
     let randomIndex = Math.floor(Math.random() * images.length);
     document.getElementById("randomImg").src = images[randomIndex];
