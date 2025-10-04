@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise 5</title>
+</head>
+<body>
+  <img id="randomImg" width="300">
+  <script>
+    let images = [
+      "https://via.placeholder.com/300/FF0000",
+      "https://via.placeholder.com/300/00FF00",
+      "https://via.placeholder.com/300/0000FF"
+    ];
+    let randomIndex = Math.floor(Math.random() * images.length);
+    document.getElementById("randomImg").src = images[randomIndex];
+  </script>
+</body>
+</html>
